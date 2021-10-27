@@ -1,7 +1,6 @@
 <!--
 [![Shanmukha Vishnu header](https://raw.githubusercontent.com/iam-shanmukha/iam-shanmukha/main/images/shanmukha_vishnu.jpeg)](https://www.shanmukhavishnu.in)
 -->
-
 # <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hi, I am Shanmukha Vishnu.
 
 ⚡ An Electrical Engineer by Education | 👨‍💻 Tech Enthusiast by Passion | Open Source Contributer by Night |
@@ -22,6 +21,7 @@
 
 🎹 In my free time I play Dholak and Piano as hobbies.
 
+#### I am a Programmer and I turn Bugs in to Features :)
 
 <Details>
   <summary>More about Me!</summary>
