@@ -5,7 +5,7 @@
 
 ⚡ An Electrical Engineer by Education | 👨‍💻 Tech Enthusiast by Passion | Open Source Contributer by Night |
 
-👨‍💻 I work as ROS(Robot Operating System) Developer and Associate R&D Engineer - Embedded Electronics at Eruvaka Technologies.
+👨‍💻 I work as Robotics Engineer at Boson Motors.
 
 ❤️ I love to play with Sensors, Electronics, and bleeding Edge Tech Devices especially related to Autonomous Robots and Autonomous Vehicles.
 
