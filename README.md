@@ -107,6 +107,8 @@
 
 [![wakatime](https://wakatime.com/badge/user/d99e99d2-68be-42e0-bc5a-ac2324d7cd15.svg)](https://wakatime.com/@d99e99d2-68be-42e0-bc5a-ac2324d7cd15)
 
+<a href="https://wakatime.com/@d99e99d2-68be-42e0-bc5a-ac2324d7cd15"><img src="https://wakatime.com/badge/user/d99e99d2-68be-42e0-bc5a-ac2324d7cd15.svg" alt="Total time coded since Oct 18 2021" /></a>
+
  <!--
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iam-shanmukha&layout=compact&theme=great-gatsby&border_radius=12&bg_color=135,222223,000000&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
