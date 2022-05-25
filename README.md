@@ -28,6 +28,9 @@
 ### Books I'm currently reading
 
 <!-- GOODREADS-LIST:START -->
+- [Scion of Ikshvaku (Ram Chandra #1)](https://www.goodreads.com/review/show/4744571466?utm_medium=api&utm_source=rss) by Amish Tripathi (⭐️3.78)
+- [Ikigai: The Japanese Secret to a Long and Happy Life / The Little Book of Lykke / Lagom: The Swedish Art of Balanced Living](https://www.goodreads.com/review/show/4744571932?utm_medium=api&utm_source=rss) by Hector Garcia Puigcerver (⭐️3.87)
+- [Guns & Thighs: The Story of My Life](https://www.goodreads.com/review/show/4744572519?utm_medium=api&utm_source=rss) by Ram Gopal Varma (⭐️3.64)
 <!-- GOODREADS-LIST:END -->
 
 <Details>
