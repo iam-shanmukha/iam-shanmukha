@@ -25,6 +25,11 @@
 
 #### I am a Programmer and I turn Bugs in to Features :)
 
+### Books I'm currently reading
+
+<!-- GOODREADS-LIST:START -->
+<!-- GOODREADS-LIST:END -->
+
 <Details>
   <summary>More about Me!</summary>
   
