@@ -29,8 +29,8 @@
 
 <!-- GOODREADS-LIST:START -->
 - [Ikigai: The Japanese Secret to a Long and Happy Life / The Little Book of Lykke / Lagom: The Swedish Art of Balanced Living](https://www.goodreads.com/review/show/4744571932?utm_medium=api&utm_source=rss) by Hector Garcia Puigcerver (⭐️3.87)
-- [Guns & Thighs: The Story of My Life](https://www.goodreads.com/review/show/4744572519?utm_medium=api&utm_source=rss) by Ram Gopal Varma (⭐️3.64)
 - [The Three-Body Problem (Remembrance of Earth’s Past #1)](https://www.goodreads.com/review/show/4744570894?utm_medium=api&utm_source=rss) by Liu Cixin (⭐️4.06)
+- [Guns & Thighs: The Story of My Life](https://www.goodreads.com/review/show/4744572519?utm_medium=api&utm_source=rss) by Ram Gopal Varma (⭐️3.64)
 <!-- GOODREADS-LIST:END -->
 
 <Details>
