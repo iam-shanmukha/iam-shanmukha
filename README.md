@@ -1,7 +1,7 @@
 <!--
 [![Shanmukha Vishnu header](https://raw.githubusercontent.com/iam-shanmukha/iam-shanmukha/main/images/shanmukha_vishnu.jpeg)](https://www.shanmukhavishnu.in)
 -->
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"> Hi, I am Shanmukha Vishnu
+# :wave: Hi, I am Shanmukha Vishnu
 [![wakatime](https://wakatime.com/badge/user/d99e99d2-68be-42e0-bc5a-ac2324d7cd15.svg)](https://wakatime.com/@d99e99d2-68be-42e0-bc5a-ac2324d7cd15)
 
 
