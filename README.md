@@ -28,7 +28,7 @@
 ### Books I'm currently reading
 
 <!-- GOODREADS-LIST:START -->
-- [The Three-Body Problem (Remembrance of Earth’s Past #1)](https://www.goodreads.com/review/show/4744570894?utm_medium=api&utm_source=rss) by Liu Cixin (⭐️4.06)
+- [The Three-Body Problem (Remembrance of Earth’s Past #1)](https://www.goodreads.com/review/show/4744570894?utm_medium=api&utm_source=rss) by Liu Cixin (⭐️4.07)
 <!-- GOODREADS-LIST:END -->
 
 <Details>
