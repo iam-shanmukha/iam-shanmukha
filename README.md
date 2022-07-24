@@ -28,6 +28,7 @@
 ### Books I'm currently reading
 
 <!-- GOODREADS-LIST:START -->
+- [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses](https://www.goodreads.com/review/show/4869075249?utm_medium=api&utm_source=rss) by Eric Ries (⭐️4.11)
 - [The Three-Body Problem (Remembrance of Earth’s Past #1)](https://www.goodreads.com/review/show/4744570894?utm_medium=api&utm_source=rss) by Liu Cixin (⭐️4.07)
 <!-- GOODREADS-LIST:END -->
 
