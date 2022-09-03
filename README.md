@@ -28,7 +28,7 @@
 ### Books I'm currently reading
 
 <!-- GOODREADS-LIST:START -->
-- [Ghost in the Wires: My Adventures as the World's Most Wanted Hacker](https://www.goodreads.com/review/show/4950146496?utm_medium=api&utm_source=rss) by Kevin D. Mitnick (⭐️3.91)
+- [Ghost in the Wires: My Adventures as the World's Most Wanted Hacker](https://www.goodreads.com/review/show/4950146496?utm_medium=api&utm_source=rss) by Kevin D. Mitnick (⭐️3.9)
 - [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses](https://www.goodreads.com/review/show/4869075249?utm_medium=api&utm_source=rss) by Eric Ries (⭐️4.11)
 <!-- GOODREADS-LIST:END -->
 
