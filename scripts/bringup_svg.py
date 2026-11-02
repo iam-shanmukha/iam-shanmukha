@@ -40,23 +40,13 @@ def _plain(level, node, body):
 
 
 def build_lines(groups, max_prs):
-    lines = [
-        _plain("INFO", "launch", "All log files can be found below ~/.ros/log/shanmukha"),
-        _plain("INFO", "robot_state_publisher", "Loading model: shanmukha_vishnu.urdf"),
-        _status_line("INFO", "hardware", "education: Electrical Engineering", "OK", COLORS["ok"]),
-        _status_line("INFO", "hardware", "role: Robotics Engineer", "OK", COLORS["ok"]),
-        _status_line("INFO", "hardware", "stack: ROS 2 · Nav2 · LiDAR · RTK-GNSS · C++ · Python", "OK", COLORS["ok"]),
-        _plain("INFO", "lifecycle_manager", "Activating open-source contributions..."),
-    ]
-    merged = [(g, p) for g in groups for p in g.merged][:max_prs]
-    for g, p in merged:
+    lines = [_plain("INFO", "shanmukha", "Robotics Engineer · ROS 2 · Nav2 · C++ · Python")]
+    for g, p in [(g, p) for g in groups for p in g.merged][:max_prs]:
         lines.append(_status_line("INFO", g.label, f"#{p.number} {_clean_title(p.title)}", "MERGED ✓", COLORS["ok"]))
     for g in groups:
         for p in g.open:
-            lines.append(_status_line("INFO", "bt_navigator", f"goal {g.label}#{p.number} {_clean_title(p.title)}",
+            lines.append(_status_line("INFO", g.label, f"#{p.number} {_clean_title(p.title)}",
                                       "IN REVIEW", COLORS["pending"]))
-    fixes = sum(1 for g in groups for p in g.merged if p.title.lower().startswith("fix"))
-    lines.append(_plain("WARN", "debugger", f"{fixes} upstream bugs detected → converted to features"))
     lines.append([("[INFO] ", COLORS["info"]), ("[lifecycle_manager]", COLORS["node"]),
                   (": Managed nodes are active ", COLORS["text"]), ("●", COLORS["ok"])])
     return lines
@@ -66,7 +56,7 @@ def _spans(spans):
     return "".join(f'<tspan fill="{c}">{escape(t)}</tspan>' for t, c in spans)
 
 
-def render(groups, max_prs=9):
+def render(groups, max_prs=7):
     lines = build_lines(groups, max_prs)
     height = TOP + LINE_H * (len(lines) + 2) + 18
     type_secs = 1.6

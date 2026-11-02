@@ -1,4 +1,4 @@
-name: Robot bringup (regenerate profile assets)
+name: Refresh profile
 on:
   schedule:
     - cron: "17 2 * * *" # daily, 07:47 IST
@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run tests
         run: python3 -m unittest discover -s tests -v
-      - name: Regenerate bringup.svg, costmap.svg and rqt_graph
+      - name: Regenerate bringup.svg and contributions list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/generate.py
@@ -29,6 +29,6 @@ jobs:
           if git diff --quiet; then echo "No changes"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "chore: robot re-planned the costmap"
+          git commit -am "chore: refresh contributions"
           git pull --rebase origin main
           git push

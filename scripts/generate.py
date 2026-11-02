@@ -1,4 +1,4 @@
-"""Regenerate profile assets and the README contributions block.
+"""Regenerate assets/bringup.svg and the README contributions list.
 
 Usage: GITHUB_TOKEN=... python3 scripts/generate.py
 """
@@ -8,20 +8,18 @@ import sys
 from pathlib import Path
 
 import bringup_svg
+import contrib_list
 import data
 import gh_api
-import planner
-import planner_svg
-import rqt_graph
 
 ROOT = Path(__file__).resolve().parent.parent
-MARK_START, MARK_END = "<!-- RQT-GRAPH:START -->", "<!-- RQT-GRAPH:END -->"
+MARK_START, MARK_END = "<!-- CONTRIB:START -->", "<!-- CONTRIB:END -->"
 
 
 def replace_block(readme, block):
     pattern = re.compile(re.escape(MARK_START) + r".*?" + re.escape(MARK_END), re.S)
     if not pattern.search(readme):
-        raise ValueError("README is missing RQT-GRAPH markers")
+        raise ValueError("README is missing CONTRIB markers")
     return pattern.sub(lambda _: f"{MARK_START}\n{block}\n{MARK_END}", readme)
 
 
@@ -30,18 +28,10 @@ def main():
     groups = data.build_groups(config)
     if not groups:
         raise RuntimeError("no contribution groups found; refusing to overwrite assets")
-    total, weeks = data.fetch_calendar(config["login"])
-    cost, lethal, path, waypoints = planner.plan(weeks)
-    if not path:
-        raise RuntimeError("planner failed to find any path")
-
-    assets = ROOT / "assets"
-    assets.mkdir(exist_ok=True)
-    (assets / "bringup.svg").write_text(bringup_svg.render(groups, config["max_bringup_prs"]))
-    (assets / "costmap.svg").write_text(planner_svg.render(weeks, total, cost, lethal, path, waypoints))
+    (ROOT / "assets" / "bringup.svg").write_text(bringup_svg.render(groups, config["max_bringup_prs"]))
     readme = ROOT / "README.md"
-    readme.write_text(replace_block(readme.read_text(), rqt_graph.render_block(groups)))
-    print(f"groups={len(groups)} contributions={total} path_waypoints={len(path)}")
+    readme.write_text(replace_block(readme.read_text(), contrib_list.render_block(groups)))
+    print(f"groups={len(groups)} merged={sum(len(g.merged) for g in groups)}")
 
 
 if __name__ == "__main__":

@@ -1,58 +1,58 @@
 {
   "login": "iam-shanmukha",
   "auto_include_min_stars": 1000,
-  "max_bringup_prs": 9,
+  "max_bringup_prs": 7,
   "groups": [
     {
-      "node": "/navigation2",
       "label": "navigation2",
       "match": [
         "ros-navigation/navigation2"
       ],
       "star_repo": "ros-navigation/navigation2",
-      "topics": "/behavior_trees /amcl /planners",
-      "blurb": "the ROS 2 Navigation Stack"
+      "blurb": "the ROS 2 Navigation Stack",
+      "name": "Navigation2",
+      "url": "https://github.com/ros-navigation/navigation2"
     },
     {
-      "node": "/docsgpt",
       "label": "docsgpt",
       "match": [
         "arc53/DocsGPT"
       ],
       "star_repo": "arc53/DocsGPT",
-      "topics": "/rag /text_to_speech",
-      "blurb": "open-source RAG assistant"
+      "blurb": "open-source RAG assistant",
+      "name": "DocsGPT",
+      "url": "https://github.com/arc53/DocsGPT"
     },
     {
-      "node": "/kestra",
       "label": "kestra",
       "match": [
         "kestra-io/*"
       ],
       "star_repo": "kestra-io/kestra",
-      "topics": "/airbyte /flink",
-      "blurb": "orchestration platform (Hacktoberfest 2026)"
+      "blurb": "orchestration platform (Hacktoberfest 2026)",
+      "name": "Kestra",
+      "url": "https://github.com/kestra-io/kestra"
     },
     {
-      "node": "/ros_ecosystem",
       "label": "ros_ecosystem",
       "match": [
         "luxonis/depthai-ros",
         "ros/rosdistro"
       ],
       "star_repo": "ros/rosdistro",
-      "topics": "/depthai_driver /rosdep",
-      "blurb": "drivers & distro"
+      "blurb": "drivers & rosdep",
+      "name": "ROS ecosystem",
+      "url": "https://github.com/ros"
     },
     {
-      "node": "/xonsh",
       "label": "xonsh",
       "match": [
         "xonsh/xonsh"
       ],
       "star_repo": "xonsh/xonsh",
-      "topics": "/shell",
-      "blurb": "Python-powered shell"
+      "blurb": "Python-powered shell",
+      "name": "xonsh",
+      "url": "https://github.com/xonsh/xonsh"
     }
   ],
   "exclude": [
@@ -64,5 +64,11 @@
     "JordanLeich/*",
     "JohnBanas/*",
     "ammababoi/*"
-  ]
+  ],
+  "title_overrides": {
+    "luxonis/depthai-ros#667": "Fix IP auto-discovery on Noetic",
+    "ros/rosdistro#41063": "Add json-stream rosdep key",
+    "xonsh/xonsh#4500": "Don't crash when the current working directory is deleted",
+    "ros-navigation/navigation2#6723": "Fix RoundRobin returning the last child's SUCCESS when wrap_around is disabled"
+  }
 }
