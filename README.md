@@ -5,9 +5,9 @@
 [![wakatime](https://wakatime.com/badge/user/d99e99d2-68be-42e0-bc5a-ac2324d7cd15.svg)](https://wakatime.com/@d99e99d2-68be-42e0-bc5a-ac2324d7cd15)
 
 
-⚡ An Electrical Engineer by Education | 👨‍💻 Tech Enthusiast by Passion | Open Source Contributer by Night |
+⚡ An Electrical Engineer by Education | 👨‍💻 Tech Enthusiast by Passion | Open Source Contributor by Night |
 
-👨‍💻 I work as Robotics Engineer at Boson Motors.
+👨‍💻 I work as a Robotics Engineer at Boson Motors, building autonomous vehicles with ROS 2.
 
 ❤️ I love to play with Sensors, Electronics, and bleeding Edge Tech Devices especially related to Autonomous Robots and Autonomous Vehicles.
 
@@ -25,6 +25,34 @@
 
 #### I am a Programmer and I turn Bugs in to Features :)
 
+## 🌍 Open Source Contributions
+
+<p>
+<a href="https://github.com/ros-navigation/navigation2/pulls?q=is%3Apr+author%3Aiam-shanmukha+is%3Amerged"><img src="https://img.shields.io/badge/Nav2-3%20PRs%20merged-22314E?style=for-the-badge&logo=ros&logoColor=white" /></a>
+<a href="https://github.com/arc53/DocsGPT/pulls?q=is%3Apr+author%3Aiam-shanmukha+is%3Amerged"><img src="https://img.shields.io/badge/DocsGPT-merged-6C47FF?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://github.com/search?q=org%3Akestra-io+author%3Aiam-shanmukha+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Kestra-3%20PRs%20merged-5B2CFF?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://github.com/search?q=author%3Aiam-shanmukha+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/All%20merged%20PRs-view-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+### 🤖 [Navigation2](https://github.com/ros-navigation/navigation2) — the ROS 2 Navigation Stack (⭐ 5k)
+Fixes to the navigation framework that runs on robots worldwide, merged and backported to the Lyrical release:
+- [#6723](https://github.com/ros-navigation/navigation2/pull/6723) — **Behavior Trees:** `RoundRobin` no longer returns the last child's SUCCESS when `wrap_around` is disabled
+- [#6724](https://github.com/ros-navigation/navigation2/pull/6724) — **AMCL:** allow negative `laser_min_range` / `laser_max_range` in dynamic parameters
+- [#6725](https://github.com/ros-navigation/navigation2/pull/6725) — **Theta\* planner:** reject non-positive `terminal_checking_interval`
+
+### 📄 [DocsGPT](https://github.com/arc53/DocsGPT) — open-source RAG assistant for documentation (⭐ 18k)
+- [#2956](https://github.com/arc53/DocsGPT/pull/2956) — restore markdown cleanup before text-to-speech
+
+### ⚙️ [Kestra](https://github.com/kestra-io) — event-driven orchestration platform (⭐ 30k) · Hacktoberfest 2026
+- [plugin-airbyte #202](https://github.com/kestra-io/plugin-airbyte/pull/202) — render URL in `CheckStatus` before polling
+- [plugin-flink #71](https://github.com/kestra-io/plugin-flink/pull/71) — apply `connectionTimeout` to `SubmitSql` HTTP clients
+- [plugin-flink #75](https://github.com/kestra-io/plugin-flink/pull/75) — close `SubmitSql` HTTP client and bound `connectionTimeout`
+
+### 🧩 More
+- [luxonis/depthai-ros #667](https://github.com/luxonis/depthai-ros/pull/667) — OAK camera IP auto-discovery fix (Noetic)
+- [ros/rosdistro #41063](https://github.com/ros/rosdistro/pull/41063) — add `json-stream` rosdep key
+- [xonsh/xonsh #4500](https://github.com/xonsh/xonsh/pull/4500) — shell bug fix ([#4467](https://github.com/xonsh/xonsh/issues/4467))
+
 ### Books I'm currently reading
 
 <!-- GOODREADS-LIST:START -->
@@ -40,12 +68,14 @@
 <Details>
   <summary>Click to expand!</summary>
 
+#### Boson Motors
+- Robotics Engineer — autonomous vehicles, ROS 2, localization & navigation - Present
 #### Eruvaka Technologies, Vijayawada
-- Associate Engineer - Embedded Electronics (R&D) and ROS Developer - Present
+- Associate Engineer - Embedded Electronics (R&D) and ROS Developer
 - Junior Design Engineer - Apr 2021 – Sep 2021
 - Research And Development Intern - Sep 2020 – Mar 2021
 #### Blogging
-- Running a  Regional [Tech website](www.shanmukhavishnu.in) - India
+- Running a  Regional [Tech website](https://www.shanmukhavishnu.in) - India
 
 </Details>
 
@@ -85,7 +115,8 @@
 
 ## Technologies
 
-![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![Nav2](https://img.shields.io/badge/Nav2-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
 ![IOT](https://img.shields.io/badge/IOT-f9ad4d?style=for-the-badge&logo={reddit}&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -112,7 +143,7 @@
   <img height="150px" src="https://github-readme-stats.vercel.app/api?username=iam-shanmukha&show_icons=true&theme=great-gatsby&border_radius=9&bg_color=135,222223,000000&hide_border=true" />
 </a>
 <a href="https://github.com/iam-shanmukha">
-  <img height="150px" src="https://github-readme-streak-stats.herokuapp.com/?user=iam-shanmukha&hide_border=truey&border_radius=9)](https://git.io/streak-stats" />
+  <img height="150px" src="https://github-readme-streak-stats.herokuapp.com/?user=iam-shanmukha&hide_border=true&border_radius=9" />
 </a>
 
  <!--
