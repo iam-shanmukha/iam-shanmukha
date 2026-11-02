@@ -5,6 +5,8 @@
 
 Robotics Engineer working on autonomous vehicles with ROS 2. Electrical engineer by education, open-source contributor by night. I like sensors, embedded hardware and robots that find their own way.
 
+[![wakatime](https://wakatime.com/badge/user/d99e99d2-68be-42e0-bc5a-ac2324d7cd15.svg)](https://wakatime.com/@d99e99d2-68be-42e0-bc5a-ac2324d7cd15)
+
 ## Open source
 
 <!-- CONTRIB:START -->
