@@ -1,4 +1,5 @@
-<!-- Assets in assets/ and the RQT-GRAPH block are regenerated daily by .github/workflows/robot.yml -->
+<!-- bringup.svg, costmap.svg and the RQT-GRAPH block are regenerated daily by .github/workflows/robot.yml;
+     portrait.svg is built once from images/ with scripts/portrait.py -->
 <p align="center">
   <img src="assets/bringup.svg" alt="ros2 launch shanmukha bringup.launch.py — profile boot log" width="100%" />
 </p>
@@ -75,6 +76,12 @@ $ ros2 run rqt_graph rqt_graph --headless
 </p>
 
 <sub>Every square is a day of my GitHub calendar turned into a Nav2-style costmap: the busier the day, the higher the cost, and my busiest days are lethal obstacles. Each morning a GitHub Action re-plans a <a href="https://github.com/ros-navigation/navigation2/tree/main/nav2_theta_star_planner">Theta*</a> path from my first day to today, and the robot drives it.</sub>
+
+## 📡 `/scan` — me, as my robot sees me
+
+<p align="center">
+  <img src="assets/portrait.svg" alt="ASCII LiDAR point-cloud portrait of Shanmukha Vishnu, revealed by a sweeping scan beam" width="80%" />
+</p>
 
 ## ⚙️ `ros2 param dump /shanmukha_vishnu`
 

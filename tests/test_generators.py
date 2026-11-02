@@ -9,6 +9,7 @@ import bringup_svg  # noqa: E402
 import generate  # noqa: E402
 import planner  # noqa: E402
 import planner_svg  # noqa: E402
+import portrait_svg  # noqa: E402
 import rqt_graph  # noqa: E402
 from data import Group, PullRequest  # noqa: E402
 
@@ -61,6 +62,13 @@ class RenderTest(unittest.TestCase):
         widths = {len(line.split("▶")[1][:rqt_graph.BOX_W + 2]) for line in graph.splitlines() if "▶" in line}
         self.assertIn("×12 merged │", graph)
         self.assertEqual(widths, {rqt_graph.BOX_W + 2})
+
+    def test_portrait_svg_counts_points_and_merges_runs(self):
+        grid = [[None, (8, 0), (2, 0)], [(0, 3), None, None]]
+        svg = portrait_svg.render(grid, title="a<b")
+        xml.dom.minidom.parseString(svg)
+        self.assertIn("published 3 points", svg)
+        self.assertEqual(portrait_svg._row_spans(grid[0]), [(" ", None), ("@-", 0)])
 
     def test_replace_block_requires_markers(self):
         with self.assertRaises(ValueError):
