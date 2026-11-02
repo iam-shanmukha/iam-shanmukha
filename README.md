@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Shanmukha Vishnu</b> · Robotics Engineer @ Boson Motors · I turn bugs into features — upstream.<br/>
+  <b>Shanmukha Vishnu</b> · Robotics Engineer · I turn bugs into features — upstream.<br/>
   <a href="https://www.linkedin.com/in/shanmukhavishnu/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="https://twitter.com/iam_shanmukha"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" /></a>
   <a href="https://www.shanmukhavishnu.in"><img src="https://img.shields.io/badge/Blog-FF5722?style=flat-square&logo=blogger&logoColor=white" /></a>
@@ -89,7 +89,7 @@ $ ros2 run rqt_graph rqt_graph --headless
 shanmukha_vishnu:
   ros__parameters:
     education: Electrical Engineering
-    role: Robotics Engineer @ Boson Motors        # autonomous vehicles
+    role: Robotics Engineer                       # autonomous vehicles
     previously: Eruvaka Technologies              # embedded R&D + ROS (2020–2023)
     loves: [sensors, LiDAR, embedded electronics, autonomous robots & vehicles]
     languages: [C++, Python, C, Bash, JavaScript]

@@ -10,14 +10,14 @@ text{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,mon
 <rect width="920" height="496" rx="12" fill="#0d1117" stroke="#30363d"/>
 <rect width="920" height="34" rx="12" fill="#161b22"/><rect y="22" width="920" height="12" fill="#161b22"/>
 <circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/><circle cx="62" cy="17" r="6" fill="#27c93f"/>
-<text x="460.0" y="22" text-anchor="middle" fill="#8b949e">shanmukha@boson: ~/ros2_ws</text>
+<text x="460.0" y="22" text-anchor="middle" fill="#8b949e">shanmukha@robot: ~/ros2_ws</text>
 <clipPath id="cmdclip"><rect id="typer" x="38.2" y="42" width="0" height="22"/></clipPath>
 <text x="22" y="58"><tspan fill="#bc8cff">$ </tspan></text>
 <text x="38.2" y="58" fill="#c9d1d9" clip-path="url(#cmdclip)">ros2 launch shanmukha bringup.launch.py</text>
 <text class="l" x="22" y="79" style="animation-delay:2.50s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[launch]</tspan><tspan fill="#c9d1d9">: All log files can be found below ~/.ros/log/shanmukha</tspan></text>
 <text class="l" x="22" y="100" style="animation-delay:2.78s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[robot_state_publisher]</tspan><tspan fill="#c9d1d9">: Loading model: shanmukha_vishnu.urdf</tspan></text>
 <text class="l" x="22" y="121" style="animation-delay:3.06s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[hardware]</tspan><tspan fill="#c9d1d9">: education: Electrical Engineering</tspan><tspan fill="#8b949e"> ...................................... </tspan><tspan fill="#3fb950">OK</tspan></text>
-<text class="l" x="22" y="142" style="animation-delay:3.34s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[hardware]</tspan><tspan fill="#c9d1d9">: role: Robotics Engineer @ Boson Motors</tspan><tspan fill="#8b949e"> ................................. </tspan><tspan fill="#3fb950">OK</tspan></text>
+<text class="l" x="22" y="142" style="animation-delay:3.34s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[hardware]</tspan><tspan fill="#c9d1d9">: role: Robotics Engineer</tspan><tspan fill="#8b949e"> ................................................ </tspan><tspan fill="#3fb950">OK</tspan></text>
 <text class="l" x="22" y="163" style="animation-delay:3.62s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[hardware]</tspan><tspan fill="#c9d1d9">: stack: ROS 2 · Nav2 · LiDAR · RTK-GNSS · C++ · Python</tspan><tspan fill="#8b949e"> .................. </tspan><tspan fill="#3fb950">OK</tspan></text>
 <text class="l" x="22" y="184" style="animation-delay:3.90s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[lifecycle_manager]</tspan><tspan fill="#c9d1d9">: Activating open-source contributions...</tspan></text>
 <text class="l" x="22" y="205" style="animation-delay:4.18s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[navigation2]</tspan><tspan fill="#c9d1d9">: #6725 reject non-positive Theta* terminal_checking_interval</tspan><tspan fill="#8b949e"> ... </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>

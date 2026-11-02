@@ -44,7 +44,7 @@ def build_lines(groups, max_prs):
         _plain("INFO", "launch", "All log files can be found below ~/.ros/log/shanmukha"),
         _plain("INFO", "robot_state_publisher", "Loading model: shanmukha_vishnu.urdf"),
         _status_line("INFO", "hardware", "education: Electrical Engineering", "OK", COLORS["ok"]),
-        _status_line("INFO", "hardware", "role: Robotics Engineer @ Boson Motors", "OK", COLORS["ok"]),
+        _status_line("INFO", "hardware", "role: Robotics Engineer", "OK", COLORS["ok"]),
         _status_line("INFO", "hardware", "stack: ROS 2 · Nav2 · LiDAR · RTK-GNSS · C++ · Python", "OK", COLORS["ok"]),
         _plain("INFO", "lifecycle_manager", "Activating open-source contributions..."),
     ]
@@ -87,7 +87,7 @@ def render(groups, max_prs=9):
         f'<rect width="{WIDTH}" height="34" rx="12" fill="#161b22"/><rect y="22" width="{WIDTH}" height="12" fill="#161b22"/>',
         '<circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/>'
         '<circle cx="62" cy="17" r="6" fill="#27c93f"/>',
-        f'<text x="{WIDTH / 2}" y="22" text-anchor="middle" fill="{COLORS["dim"]}">shanmukha@boson: ~/ros2_ws</text>',
+        f'<text x="{WIDTH / 2}" y="22" text-anchor="middle" fill="{COLORS["dim"]}">shanmukha@robot: ~/ros2_ws</text>',
         f'<clipPath id="cmdclip"><rect id="typer" x="{PAD_X + 2 * CHAR_W}" y="{TOP - 16}" width="0" height="22"/></clipPath>',
         f'<text x="{PAD_X}" y="{TOP}"><tspan fill="{COLORS["prompt"]}">$ </tspan></text>',
         f'<text x="{PAD_X + 2 * CHAR_W}" y="{TOP}" fill="{COLORS["text"]}" clip-path="url(#cmdclip)">{COMMAND}</text>',
