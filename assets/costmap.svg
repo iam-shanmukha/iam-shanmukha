@@ -2,7 +2,7 @@
 <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}.p{stroke-dasharray:1529;stroke-dashoffset:1529;animation:draw 12.0s linear infinite}@keyframes draw{0%{stroke-dashoffset:1529}60%,100%{stroke-dashoffset:0}}</style>
 <rect width="916" height="252" rx="12" fill="#0d1117" stroke="#30363d"/>
 <text x="44" y="28" fill="#c9d1d9">$ ros2 action send_goal /follow_waypoints today <tspan fill="#8b949e">--planner theta_star</tspan></text>
-<text x="44" y="50" fill="#8b949e">costmap: last 53 weeks · 281 contributions · <tspan fill="#d946ef">■</tspan> obstacle = a day I shipped code <tspan fill="#2563eb">■</tspan> inflation · ○ waypoint</text>
+<text x="44" y="50" fill="#8b949e">costmap: last 53 weeks · 283 contributions · <tspan fill="#d946ef">■</tspan> obstacle = a day I shipped code <tspan fill="#2563eb">■</tspan> inflation · ○ waypoint</text>
 <text x="4" y="96" fill="#8b949e" font-size="9">Mon</text>
 <text x="4" y="128" fill="#8b949e" font-size="9">Wed</text>
 <text x="4" y="160" fill="#8b949e" font-size="9">Fri</text>
@@ -371,7 +371,7 @@
 <rect x="860" y="150" width="13" height="13" rx="2" fill="#1e408a"/>
 <rect x="860" y="166" width="13" height="13" rx="2" fill="#2358cd"/>
 <rect x="876" y="70" width="13" height="13" rx="2" fill="#f0abfc"/>
-<rect x="876" y="86" width="13" height="13" rx="2" fill="#943dd7"/>
+<rect x="876" y="86" width="13" height="13" rx="2" fill="#9a44da"/>
 <circle cx="82.5" cy="76.5" r="3" fill="none" stroke="#f0f6fc" stroke-opacity=".7"/>
 <circle cx="146.5" cy="172.5" r="3" fill="none" stroke="#f0f6fc" stroke-opacity=".7"/>
 <circle cx="210.5" cy="76.5" r="3" fill="none" stroke="#f0f6fc" stroke-opacity=".7"/>
