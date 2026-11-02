@@ -7,6 +7,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import bringup_svg  # noqa: E402
 import contrib_list  # noqa: E402
+import portrait_svg  # noqa: E402
 import generate  # noqa: E402
 from data import Group, PullRequest  # noqa: E402
 
@@ -35,11 +36,25 @@ class BringupTest(unittest.TestCase):
         self.assertEqual(widths, {bringup_svg.TEXT_COLS})
 
 
+class PortraitTest(unittest.TestCase):
+    def test_svg_counts_points_and_merges_runs(self):
+        grid = [[None, (8, 0), (2, 0)], [(0, 3), None, None]]
+        svg = portrait_svg.render(grid, title="a<b")
+        xml.dom.minidom.parseString(svg)
+        self.assertIn("3 pts", svg)
+        self.assertEqual(portrait_svg._row_spans(grid[0]), [(" ", None), ("@-", 0)])
+
+
 class ReadmeTest(unittest.TestCase):
     def test_list_has_one_line_per_pr(self):
         block = contrib_list.render_block([_group("Navigation2", 3, 1)])
         self.assertEqual(block.count("\n- "), 4)
         self.assertIn("*(in review)*", block)
+        self.assertIn("3 merged + 1 in review", block)
+
+    def test_logo_uses_org_from_url(self):
+        g = Group("Nav2", "nav2", "https://github.com/ros-navigation/navigation2", "b", 1, (), ())
+        self.assertIn("https://github.com/ros-navigation.png", contrib_list.render_block([g]))
 
     def test_replace_block_requires_markers(self):
         with self.assertRaises(ValueError):

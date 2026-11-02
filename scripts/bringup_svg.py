@@ -23,6 +23,11 @@ def _clean_title(title):
     return PREFIX_RE.sub("", title).rstrip(".")
 
 
+def _log_title(title):
+    t = _clean_title(title)
+    return t[:1].lower() + t[1:]
+
+
 def _status_line(level, node, body, status, status_color):
     """Build a list of (text, color) spans padded so status is right-aligned."""
     head = f"[{level}] [{node}]: "
@@ -42,10 +47,10 @@ def _plain(level, node, body):
 def build_lines(groups, max_prs):
     lines = [_plain("INFO", "shanmukha", "Robotics Engineer · ROS 2 · Nav2 · C++ · Python")]
     for g, p in [(g, p) for g in groups for p in g.merged][:max_prs]:
-        lines.append(_status_line("INFO", g.label, f"#{p.number} {_clean_title(p.title)}", "MERGED ✓", COLORS["ok"]))
+        lines.append(_status_line("INFO", g.label, f"#{p.number} {_log_title(p.title)}", "MERGED ✓", COLORS["ok"]))
     for g in groups:
         for p in g.open:
-            lines.append(_status_line("INFO", g.label, f"#{p.number} {_clean_title(p.title)}",
+            lines.append(_status_line("INFO", g.label, f"#{p.number} {_log_title(p.title)}",
                                       "IN REVIEW", COLORS["pending"]))
     lines.append([("[INFO] ", COLORS["info"]), ("[lifecycle_manager]", COLORS["node"]),
                   (": Managed nodes are active ", COLORS["text"]), ("●", COLORS["ok"])])
