@@ -1,0 +1,68 @@
+{
+  "login": "iam-shanmukha",
+  "auto_include_min_stars": 1000,
+  "max_bringup_prs": 9,
+  "groups": [
+    {
+      "node": "/navigation2",
+      "label": "navigation2",
+      "match": [
+        "ros-navigation/navigation2"
+      ],
+      "star_repo": "ros-navigation/navigation2",
+      "topics": "/behavior_trees /amcl /planners",
+      "blurb": "the ROS 2 Navigation Stack"
+    },
+    {
+      "node": "/docsgpt",
+      "label": "docsgpt",
+      "match": [
+        "arc53/DocsGPT"
+      ],
+      "star_repo": "arc53/DocsGPT",
+      "topics": "/rag /text_to_speech",
+      "blurb": "open-source RAG assistant"
+    },
+    {
+      "node": "/kestra",
+      "label": "kestra",
+      "match": [
+        "kestra-io/*"
+      ],
+      "star_repo": "kestra-io/kestra",
+      "topics": "/airbyte /flink",
+      "blurb": "orchestration platform (Hacktoberfest 2026)"
+    },
+    {
+      "node": "/ros_ecosystem",
+      "label": "ros_ecosystem",
+      "match": [
+        "luxonis/depthai-ros",
+        "ros/rosdistro"
+      ],
+      "star_repo": "ros/rosdistro",
+      "topics": "/depthai_driver /rosdep",
+      "blurb": "drivers & distro"
+    },
+    {
+      "node": "/xonsh",
+      "label": "xonsh",
+      "match": [
+        "xonsh/xonsh"
+      ],
+      "star_repo": "xonsh/xonsh",
+      "topics": "/shell",
+      "blurb": "Python-powered shell"
+    }
+  ],
+  "exclude": [
+    "firstcontributions/*",
+    "alexandresanlim/*",
+    "python-geeks/*",
+    "amanjha8100/*",
+    "techyminati/*",
+    "JordanLeich/*",
+    "JohnBanas/*",
+    "ammababoi/*"
+  ]
+}

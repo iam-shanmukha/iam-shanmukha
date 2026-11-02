@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="496" viewBox="0 0 920 496" role="img" aria-label="ros2 launch shanmukha bringup: profile boot log">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,'JetBrains Mono',Menlo,Consolas,monospace;font-size:13.5px;white-space:pre}
+.l{opacity:0;animation:show .01s linear forwards}
+@keyframes show{to{opacity:1}}
+@keyframes type{from{width:0}to{width:320px}}
+#typer{animation:type 1.6s steps(39) .4s forwards}
+.cur{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}
+</style>
+<rect width="920" height="496" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect width="920" height="34" rx="12" fill="#161b22"/><rect y="22" width="920" height="12" fill="#161b22"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/><circle cx="62" cy="17" r="6" fill="#27c93f"/>
+<text x="460.0" y="22" text-anchor="middle" fill="#8b949e">shanmukha@boson: ~/ros2_ws</text>
+<clipPath id="cmdclip"><rect id="typer" x="38.2" y="42" width="0" height="22"/></clipPath>
+<text x="22" y="58"><tspan fill="#bc8cff">$ </tspan></text>
+<text x="38.2" y="58" fill="#c9d1d9" clip-path="url(#cmdclip)">ros2 launch shanmukha bringup.launch.py</text>
+<text class="l" x="22" y="79" style="animation-delay:2.50s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[launch]</tspan><tspan fill="#c9d1d9">: All log files can be found below ~/.ros/log/shanmukha</tspan></text>
+<text class="l" x="22" y="100" style="animation-delay:2.78s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[robot_state_publisher]</tspan><tspan fill="#c9d1d9">: Loading model: shanmukha_vishnu.urdf</tspan></text>
+<text class="l" x="22" y="121" style="animation-delay:3.06s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[hardware]</tspan><tspan fill="#c9d1d9">: education: Electrical Engineering</tspan><tspan fill="#8b949e"> ...................................... </tspan><tspan fill="#3fb950">OK</tspan></text>
+<text class="l" x="22" y="142" style="animation-delay:3.34s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[hardware]</tspan><tspan fill="#c9d1d9">: role: Robotics Engineer @ Boson Motors</tspan><tspan fill="#8b949e"> ................................. </tspan><tspan fill="#3fb950">OK</tspan></text>
+<text class="l" x="22" y="163" style="animation-delay:3.62s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[hardware]</tspan><tspan fill="#c9d1d9">: stack: ROS 2 · Nav2 · LiDAR · RTK-GNSS · C++ · Python</tspan><tspan fill="#8b949e"> .................. </tspan><tspan fill="#3fb950">OK</tspan></text>
+<text class="l" x="22" y="184" style="animation-delay:3.90s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[lifecycle_manager]</tspan><tspan fill="#c9d1d9">: Activating open-source contributions...</tspan></text>
+<text class="l" x="22" y="205" style="animation-delay:4.18s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[navigation2]</tspan><tspan fill="#c9d1d9">: #6725 reject non-positive Theta* terminal_checking_interval</tspan><tspan fill="#8b949e"> ... </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="226" style="animation-delay:4.46s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[navigation2]</tspan><tspan fill="#c9d1d9">: #6724 allow negative laser_min_range/laser_max_range in AMC…</tspan><tspan fill="#8b949e"> .. </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="247" style="animation-delay:4.74s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[navigation2]</tspan><tspan fill="#c9d1d9">: #6723 RoundRobin returns last child&#x27;s SUCCESS when wrap_aro…</tspan><tspan fill="#8b949e"> .. </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="268" style="animation-delay:5.02s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[docsgpt]</tspan><tspan fill="#c9d1d9">: #2956 restore markdown cleanup before text-to-speech</tspan><tspan fill="#8b949e"> .............. </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="289" style="animation-delay:5.30s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[kestra]</tspan><tspan fill="#c9d1d9">: #75 close SubmitSql HTTP client and bound connectionTimeout</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="310" style="animation-delay:5.58s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[kestra]</tspan><tspan fill="#c9d1d9">: #71 apply connectionTimeout to SubmitSql HTTP clients</tspan><tspan fill="#8b949e"> .............. </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="331" style="animation-delay:5.86s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[kestra]</tspan><tspan fill="#c9d1d9">: #202 render url in CheckStatus before polling</tspan><tspan fill="#8b949e"> ...................... </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="352" style="animation-delay:6.14s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[ros_ecosystem]</tspan><tspan fill="#c9d1d9">: #667 Ip autodiscovery fix noetic</tspan><tspan fill="#8b949e"> ............................ </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="373" style="animation-delay:6.42s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[ros_ecosystem]</tspan><tspan fill="#c9d1d9">: #41063 json-stream</tspan><tspan fill="#8b949e"> .......................................... </tspan><tspan fill="#3fb950">MERGED ✓</tspan></text>
+<text class="l" x="22" y="394" style="animation-delay:6.70s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[bt_navigator]</tspan><tspan fill="#c9d1d9">: goal navigation2#6729 apply BinaryFilter default_state on…</tspan><tspan fill="#8b949e"> .. </tspan><tspan fill="#d29922">IN REVIEW</tspan></text>
+<text class="l" x="22" y="415" style="animation-delay:6.98s"><tspan fill="#d29922">[WARN] </tspan><tspan fill="#58a6ff">[debugger]</tspan><tspan fill="#c9d1d9">: 9 upstream bugs detected → converted to features</tspan></text>
+<text class="l" x="22" y="436" style="animation-delay:7.26s"><tspan fill="#3fb950">[INFO] </tspan><tspan fill="#58a6ff">[lifecycle_manager]</tspan><tspan fill="#c9d1d9">: Managed nodes are active </tspan><tspan fill="#3fb950">●</tspan></text>
+<g class="l" style="animation-delay:7.54s"><text x="22" y="457"><tspan fill="#bc8cff">$ </tspan></text><rect class="cur" x="38.2" y="444" width="8" height="16" fill="#c9d1d9"/></g>
+</svg>

@@ -1,0 +1,34 @@
+name: Robot bringup (regenerate profile assets)
+on:
+  schedule:
+    - cron: "17 2 * * *" # daily, 07:47 IST
+  workflow_dispatch:
+  push:
+    paths: ["scripts/**", ".github/workflows/robot.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robot-bringup
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Regenerate bringup.svg, costmap.svg and rqt_graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate.py
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: robot re-planned the costmap"
+          git pull --rebase origin main
+          git push

@@ -1,17 +1,98 @@
-<!--
-[![Shanmukha Vishnu header](https://raw.githubusercontent.com/iam-shanmukha/iam-shanmukha/main/images/shanmukha_vishnu.jpeg)](https://www.shanmukhavishnu.in)
--->
-# :wave: Hi, I am Shanmukha Vishnu
-[![wakatime](https://wakatime.com/badge/user/d99e99d2-68be-42e0-bc5a-ac2324d7cd15.svg)](https://wakatime.com/@d99e99d2-68be-42e0-bc5a-ac2324d7cd15)
+<!-- Assets in assets/ and the RQT-GRAPH block are regenerated daily by .github/workflows/robot.yml -->
+<p align="center">
+  <img src="assets/bringup.svg" alt="ros2 launch shanmukha bringup.launch.py — profile boot log" width="100%" />
+</p>
 
+<p align="center">
+  <b>Shanmukha Vishnu</b> · Robotics Engineer @ Boson Motors · I turn bugs into features — upstream.<br/>
+  <a href="https://www.linkedin.com/in/shanmukhavishnu/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://twitter.com/iam_shanmukha"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" /></a>
+  <a href="https://www.shanmukhavishnu.in"><img src="https://img.shields.io/badge/Blog-FF5722?style=flat-square&logo=blogger&logoColor=white" /></a>
+  <a href="https://www.instagram.com/shanmukhavishnu/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" /></a>
+  <a href="https://www.reddit.com/user/iam_shanmukha"><img src="https://img.shields.io/badge/Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white" /></a>
+  <a href="https://wakatime.com/@d99e99d2-68be-42e0-bc5a-ac2324d7cd15"><img src="https://wakatime.com/badge/user/d99e99d2-68be-42e0-bc5a-ac2324d7cd15.svg?style=flat-square" /></a>
+</p>
 
-⚡ An Electrical Engineer by Education | 👨‍💻 Tech Enthusiast by Passion | Open Source Contributor by Night |
+## 🛰️ `/contributions` — node graph
 
-👨‍💻 I work as a Robotics Engineer at Boson Motors, building autonomous vehicles with ROS 2.
+<!-- RQT-GRAPH:START -->
+```console
+$ ros2 run rqt_graph rqt_graph --headless
 
-❤️ I love to play with Sensors, Electronics, and bleeding Edge Tech Devices especially related to Autonomous Robots and Autonomous Vehicles.
+                                   ┌──────────────────────────────────┐
+                              ┌───▶│ /navigation2           ×3 merged │  ⭐ 5.0k
+                              │    └──────────────────────────────────┘  ◀ /behavior_trees /amcl /planners
+                              │    ┌──────────────────────────────────┐
+                              ├───▶│ /docsgpt               ×1 merged │  ⭐ 18.4k
+                              │    └──────────────────────────────────┘  ◀ /rag /text_to_speech
+┌────────────────────────┐    │    ┌──────────────────────────────────┐
+│ /shanmukha_vishnu      │────┼───▶│ /kestra                ×3 merged │  ⭐ 30.1k
+│ [robotics_engineer]    │    │    └──────────────────────────────────┘  ◀ /airbyte /flink
+└────────────────────────┘    │    ┌──────────────────────────────────┐
+                              ├───▶│ /ros_ecosystem         ×2 merged │  ⭐ 1.1k
+                              │    └──────────────────────────────────┘  ◀ /depthai_driver /rosdep
+                              │    ┌──────────────────────────────────┐
+                              └───▶│ /xonsh                 ×1 merged │  ⭐ 9.7k
+                                   └──────────────────────────────────┘  ◀ /shell
+```
 
-📚 I write Quotes on [YourQuote](https://www.yourquote.in/shanmukha-vishnu-bp7sd/quotes).
+<details>
+<summary><code>$ ros2 topic echo /merged_prs</code> — 10 merged upstream (click)</summary>
+
+**`/navigation2`** — the ROS 2 Navigation Stack · ⭐ 5.0k
+
+- ✅ [navigation2#6725](https://github.com/ros-navigation/navigation2/pull/6725) — fix: reject non-positive Theta* terminal_checking_interval
+- ✅ [navigation2#6724](https://github.com/ros-navigation/navigation2/pull/6724) — fix: allow negative laser_min_range/laser_max_range in AMCL dynamic parameters
+- ✅ [navigation2#6723](https://github.com/ros-navigation/navigation2/pull/6723) — fix: RoundRobin returns last child's SUCCESS when wrap_around is disabled
+- 🟡 [navigation2#6729](https://github.com/ros-navigation/navigation2/pull/6729) — fix: apply BinaryFilter default_state on startup *(in review)*
+
+**`/docsgpt`** — open-source RAG assistant · ⭐ 18.4k
+
+- ✅ [DocsGPT#2956](https://github.com/arc53/DocsGPT/pull/2956) — fix: restore markdown cleanup before text-to-speech
+
+**`/kestra`** — orchestration platform (Hacktoberfest 2026) · ⭐ 30.1k
+
+- ✅ [plugin-flink#75](https://github.com/kestra-io/plugin-flink/pull/75) — fix(sql): close SubmitSql HTTP client and bound connectionTimeout
+- ✅ [plugin-flink#71](https://github.com/kestra-io/plugin-flink/pull/71) — fix(sql): apply connectionTimeout to SubmitSql HTTP clients
+- ✅ [plugin-airbyte#202](https://github.com/kestra-io/plugin-airbyte/pull/202) — fix(connections): render url in CheckStatus before polling
+
+**`/ros_ecosystem`** — drivers & distro · ⭐ 1.1k
+
+- ✅ [depthai-ros#667](https://github.com/luxonis/depthai-ros/pull/667) — fix : Ip autodiscovery fix noetic
+- ✅ [rosdistro#41063](https://github.com/ros/rosdistro/pull/41063) — json-stream
+
+**`/xonsh`** — Python-powered shell · ⭐ 9.7k
+
+- ✅ [xonsh#4500](https://github.com/xonsh/xonsh/pull/4500) — Fix #4467
+
+</details>
+<!-- RQT-GRAPH:END -->
+
+## 🗺️ `/costmap` — my year, as a robot sees it
+
+<p align="center">
+  <img src="assets/costmap.svg" alt="A robot plans a Theta* path across my GitHub contribution calendar" width="100%" />
+</p>
+
+<sub>Every square is a day of my GitHub calendar turned into a Nav2-style costmap: the busier the day, the higher the cost, and my busiest days are lethal obstacles. Each morning a GitHub Action re-plans a <a href="https://github.com/ros-navigation/navigation2/tree/main/nav2_theta_star_planner">Theta*</a> path from my first day to today, and the robot drives it.</sub>
+
+## ⚙️ `ros2 param dump /shanmukha_vishnu`
+
+```yaml
+shanmukha_vishnu:
+  ros__parameters:
+    education: Electrical Engineering
+    role: Robotics Engineer @ Boson Motors        # autonomous vehicles
+    previously: Eruvaka Technologies              # embedded R&D + ROS (2020–2023)
+    loves: [sensors, LiDAR, embedded electronics, autonomous robots & vehicles]
+    languages: [C++, Python, C, Bash, JavaScript]
+    stack: [ROS 2, Nav2, Linux, Raspberry Pi, Arduino, AWS, GCP]
+    hobbies: [dholak, piano, writing quotes]
+    open_source_contributor: by_night
+```
+
+<details>
+<summary><code>$ ros2 topic echo /quote</code></summary>
 
 > People who stay single are already committed to their Passion.
 >
@@ -21,134 +102,30 @@
 >
 > -- Shanmukha Vishnu
 
-🎹 In my free time I play Dholak and Piano as hobbies.
+More on [YourQuote](https://www.yourquote.in/shanmukha-vishnu-bp7sd/quotes).
+</details>
 
-#### I am a Programmer and I turn Bugs in to Features :)
+<details>
+<summary><code>$ ros2 topic echo /publications</code></summary>
 
-## 🌍 Open Source Contributions
+- [Gleaming of Lights by Pedaling using Arduino](https://link.springer.com/chapter/10.1007/978-981-15-9853-1_30) — Springer
+- [Cybernation of Home Appliances using Raspberry Pi](https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/IEC/IEC_35.pdf?v20210205.1) — IEI
+- [QR code based digital assistant for seminar halls using Tinker Board and Node-Red](https://link.springer.com/book/10.1007%2F978-981-16-2109-3) — Springer
+</details>
 
-<p>
-<a href="https://github.com/ros-navigation/navigation2/pulls?q=is%3Apr+author%3Aiam-shanmukha+is%3Amerged"><img src="https://img.shields.io/badge/Nav2-3%20PRs%20merged-22314E?style=for-the-badge&logo=ros&logoColor=white" /></a>
-<a href="https://github.com/arc53/DocsGPT/pulls?q=is%3Apr+author%3Aiam-shanmukha+is%3Amerged"><img src="https://img.shields.io/badge/DocsGPT-merged-6C47FF?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://github.com/search?q=org%3Akestra-io+author%3Aiam-shanmukha+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/Kestra-3%20PRs%20merged-5B2CFF?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://github.com/search?q=author%3Aiam-shanmukha+is%3Apr+is%3Amerged&type=pullrequests"><img src="https://img.shields.io/badge/All%20merged%20PRs-view-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+<details>
+<summary><code>$ ros2 pkg list --mine</code></summary>
 
-### 🤖 [Navigation2](https://github.com/ros-navigation/navigation2) — the ROS 2 Navigation Stack (⭐ 5k)
-Fixes to the navigation framework that runs on robots worldwide, merged and backported to the Lyrical release:
-- [#6723](https://github.com/ros-navigation/navigation2/pull/6723) — **Behavior Trees:** `RoundRobin` no longer returns the last child's SUCCESS when `wrap_around` is disabled
-- [#6724](https://github.com/ros-navigation/navigation2/pull/6724) — **AMCL:** allow negative `laser_min_range` / `laser_max_range` in dynamic parameters
-- [#6725](https://github.com/ros-navigation/navigation2/pull/6725) — **Theta\* planner:** reject non-positive `terminal_checking_interval`
+- **Drushya** — CRT TV → Smart TV with Google Assistant
+- [**Covid Bot India**](https://github.com/iam-shanmukha/corona_data.py) — [Twitter](https://twitter.com/covid_bot_India) · [Telegram](https://t.me/covid_bot_india)
+- **D.A.S.H** — Digital Assistant for Seminar Halls
+</details>
 
-### 📄 [DocsGPT](https://github.com/arc53/DocsGPT) — open-source RAG assistant for documentation (⭐ 18k)
-- [#2956](https://github.com/arc53/DocsGPT/pull/2956) — restore markdown cleanup before text-to-speech
-
-### ⚙️ [Kestra](https://github.com/kestra-io) — event-driven orchestration platform (⭐ 30k) · Hacktoberfest 2026
-- [plugin-airbyte #202](https://github.com/kestra-io/plugin-airbyte/pull/202) — render URL in `CheckStatus` before polling
-- [plugin-flink #71](https://github.com/kestra-io/plugin-flink/pull/71) — apply `connectionTimeout` to `SubmitSql` HTTP clients
-- [plugin-flink #75](https://github.com/kestra-io/plugin-flink/pull/75) — close `SubmitSql` HTTP client and bound `connectionTimeout`
-
-### 🧩 More
-- [luxonis/depthai-ros #667](https://github.com/luxonis/depthai-ros/pull/667) — OAK camera IP auto-discovery fix (Noetic)
-- [ros/rosdistro #41063](https://github.com/ros/rosdistro/pull/41063) — add `json-stream` rosdep key
-- [xonsh/xonsh #4500](https://github.com/xonsh/xonsh/pull/4500) — shell bug fix ([#4467](https://github.com/xonsh/xonsh/issues/4467))
-
-### Books I'm currently reading
+<details>
+<summary><code>$ ros2 topic echo /currently_reading</code></summary>
 
 <!-- GOODREADS-LIST:START -->
 - [Ghost in the Wires: My Adventures as the World's Most Wanted Hacker](https://www.goodreads.com/review/show/4950146496?utm_medium=api&utm_source=rss) by Kevin D. Mitnick (⭐️3.91)
 - [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses](https://www.goodreads.com/review/show/4869075249?utm_medium=api&utm_source=rss) by Eric Ries (⭐️4.11)
 <!-- GOODREADS-LIST:END -->
-
-<Details>
-  <summary>More about Me!</summary>
-  
-## 🔭 Experience
-  
-<Details>
-  <summary>Click to expand!</summary>
-
-#### Boson Motors
-- Robotics Engineer — autonomous vehicles, ROS 2, localization & navigation - Present
-#### Eruvaka Technologies, Vijayawada
-- Associate Engineer - Embedded Electronics (R&D) and ROS Developer
-- Junior Design Engineer - Apr 2021 – Sep 2021
-- Research And Development Intern - Sep 2020 – Mar 2021
-#### Blogging
-- Running a  Regional [Tech website](https://www.shanmukhavishnu.in) - India
-
-</Details>
-
-## 📚 Publications
-
-<Details>
-  <summary>Click to expand!</summary>
-  
-- [Gleaming of Lights by Pedaling using Arduino](https://link.springer.com/chapter/10.1007/978-981-15-9853-1_30)
-- [Cybernation of Home Appliances using Raspberry Pi](https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/IEC/IEC_35.pdf?v20210205.1)
-- [QR code based digital assistant for seminar halls using Tinker Board and Node-Red](https://link.springer.com/book/10.1007%2F978-981-16-2109-3)
- 
-</Details>
-
-## 💡 Projects
-<Details>
-  <summary>Click to expand!</summary>
- 
-- Drushya — CRT TV to ·Smart TV with G. Assistant
-- [Covid Bot India](http://www.github.com/iam-shanmukha/corona_data.py) - [Twitter](https://twitter.com/covid_bot_India) - [Telegram](https://www.t.me/covid_bot_india)
-- [Cybernation of Home Appliances using Raspberry Pi](https://www.ieindia.org/webui/ajax/Downloads/WebUI_PDF/IEC/IEC_35.pdf?v20210205.1)
-- [QR code based digital assistant for seminar halls using Tinker Board and Node-Red](https://link.springer.com/book/10.1007%2F978-981-16-2109-3)
-- D.A.S.H: Digital Assistant for Seminar Halls
-  
-</Details>
- 
- </Details>
-
-## Languages
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![MarkDown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-## Technologies
-
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Nav2](https://img.shields.io/badge/Nav2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![IOT](https://img.shields.io/badge/IOT-f9ad4d?style=for-the-badge&logo={reddit}&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-[![Blogger](https://img.shields.io/badge/Blogger-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://www.shanmukhavishnu.in)
-![Amazon AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-
-## 📫 Connect with Me
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/iam_shanmukha)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/shanmukhavishnu/)
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shanmukhavishnu/)
-[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iam-shanmukha/)
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/iam_shanmukha)
-
-## 📈 Github Stats
-<!--
-![Shanmukha Vishnu's GitHub stats](https://github-readme-stats.vercel.app/api?username=iam-shanmukha&show_icons=true&theme=great-gatsby&border_radius=11&bg_color=135,222223,000000&hide_border=true)[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=iam-shanmukha&hide_border=truey&border_radius=11)](https://git.io/streak-stats)
--->
-
-<a href="https://github.com/iam-shanmukha">
-  <img height="150px" src="https://github-readme-stats.vercel.app/api?username=iam-shanmukha&show_icons=true&theme=great-gatsby&border_radius=9&bg_color=135,222223,000000&hide_border=true" />
-</a>
-<a href="https://github.com/iam-shanmukha">
-  <img height="150px" src="https://github-readme-streak-stats.herokuapp.com/?user=iam-shanmukha&hide_border=true&border_radius=9" />
-</a>
-
- <!--
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iam-shanmukha&layout=compact&theme=great-gatsby&border_radius=12&bg_color=135,222223,000000&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-
--->
-
+</details>
