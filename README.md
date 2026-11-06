@@ -31,7 +31,7 @@ Electrical engineer by education, open-source contributor by night. I like senso
 
 - [#2956](https://github.com/arc53/DocsGPT/pull/2956) Restore markdown cleanup before text-to-speech
 
-<img src="https://github.com/kestra-io.png?size=40" width="20" height="20" align="top" /> **[Kestra](https://github.com/kestra-io/kestra)** · orchestration platform (Hacktoberfest 2026) · ⭐ 30.1k · 3 merged
+<img src="https://github.com/kestra-io.png?size=40" width="20" height="20" align="top" /> **[Kestra](https://github.com/kestra-io/kestra)** · orchestration platform (Hacktoberfest 2026) · ⭐ 30.2k · 3 merged
 
 - [#75](https://github.com/kestra-io/plugin-flink/pull/75) Close SubmitSql HTTP client and bound connectionTimeout
 - [#71](https://github.com/kestra-io/plugin-flink/pull/71) Apply connectionTimeout to SubmitSql HTTP clients
