@@ -19,7 +19,7 @@ Electrical engineer by education, open-source contributor by night. I like senso
 ## Open source
 
 <!-- CONTRIB:START -->
-<img src="https://github.com/ros-navigation.png?size=40" width="20" height="20" align="top" /> **[Navigation2](https://github.com/ros-navigation/navigation2)** · the ROS 2 Navigation Stack · ⭐ 5.0k · 5 merged
+<img src="https://github.com/ros-navigation.png?size=40" width="20" height="20" align="top" /> **[Navigation2](https://github.com/ros-navigation/navigation2)** · the ROS 2 Navigation Stack · ⭐ 5.1k · 5 merged
 
 - [#6730](https://github.com/ros-navigation/navigation2/pull/6730) Fix search_window parameter name in NavigateToPose and NavigateThroughPoses navigators
 - [#6729](https://github.com/ros-navigation/navigation2/pull/6729) Apply BinaryFilter default_state on startup
