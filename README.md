@@ -19,20 +19,20 @@ Electrical engineer by education, open-source contributor by night. I like senso
 ## Open source
 
 <!-- CONTRIB:START -->
-<img src="https://github.com/ros-navigation.png?size=40" width="20" height="20" align="top" /> **[Navigation2](https://github.com/ros-navigation/navigation2)** · the ROS 2 Navigation Stack · ⭐ 5.1k · 5 merged + 1 in review
+<img src="https://github.com/ros-navigation.png?size=40" width="20" height="20" align="top" /> **[Navigation2](https://github.com/ros-navigation/navigation2)** · the ROS 2 Navigation Stack · ⭐ 5.1k · 6 merged
 
+- [#6791](https://github.com/ros-navigation/navigation2/pull/6791) Stop rotation shim collision simulation at hand-off for CCW rotation
 - [#6730](https://github.com/ros-navigation/navigation2/pull/6730) Fix search_window parameter name in NavigateToPose and NavigateThroughPoses navigators
 - [#6729](https://github.com/ros-navigation/navigation2/pull/6729) Apply BinaryFilter default_state on startup
 - [#6725](https://github.com/ros-navigation/navigation2/pull/6725) Reject non-positive Theta* terminal_checking_interval
 - [#6724](https://github.com/ros-navigation/navigation2/pull/6724) Allow negative laser_min_range/laser_max_range in AMCL dynamic parameters
 - [#6723](https://github.com/ros-navigation/navigation2/pull/6723) Fix RoundRobin returning the last child's SUCCESS when wrap_around is disabled
-- [#6791](https://github.com/ros-navigation/navigation2/pull/6791) Stop rotation shim collision simulation at hand-off for CCW rotation *(in review)*
 
 <img src="https://github.com/arc53.png?size=40" width="20" height="20" align="top" /> **[DocsGPT](https://github.com/arc53/DocsGPT)** · open-source RAG assistant · ⭐ 18.4k · 1 merged
 
 - [#2956](https://github.com/arc53/DocsGPT/pull/2956) Restore markdown cleanup before text-to-speech
 
-<img src="https://github.com/kestra-io.png?size=40" width="20" height="20" align="top" /> **[Kestra](https://github.com/kestra-io/kestra)** · orchestration platform (Hacktoberfest 2026) · ⭐ 30.2k · 3 merged
+<img src="https://github.com/kestra-io.png?size=40" width="20" height="20" align="top" /> **[Kestra](https://github.com/kestra-io/kestra)** · orchestration platform (Hacktoberfest 2026) · ⭐ 30.3k · 3 merged
 
 - [#75](https://github.com/kestra-io/plugin-flink/pull/75) Close SubmitSql HTTP client and bound connectionTimeout
 - [#71](https://github.com/kestra-io/plugin-flink/pull/71) Apply connectionTimeout to SubmitSql HTTP clients
